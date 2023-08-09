@@ -13,13 +13,22 @@ class Subscribe_button extends Component{
         })
     }
 
+    UnSubscribe(){
+        this.setState(
+            {
+                message: 'unsubscriber'
+            }
+        )
+    }
     render(){
         return(
             <div>
             <h1>{this.state.message}</h1>
             <button onClick={()=>this.changeMessage()}>subscribe</button>
+            <button onClick={()=>this.UnSubscribe()}>unsubscribe</button>
             </div>
         );
     }
+    
 }
 export default Subscribe_button

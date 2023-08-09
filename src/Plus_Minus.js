@@ -1,5 +1,4 @@
 import { useState } from "react"
-// import Decrement from "./Increment/Decrement"
 
 function Plus_Minus () {
   const [ counter, setCounter] = useState(0)

@@ -1,8 +1,16 @@
-import Plus_Minus from "./Plus_Minus";
+// import HeaderLogo from "./eShop/Header";
+// import Home from "./eShop/Home";
+
+import Subscribe_button from "./component/Subscribe_button";
+
+// import Product from "./eShop/Product";
 function App() {
   return (
     <div className="App">
-    <Plus_Minus />
+      <Subscribe_button />
+      {/* <HeaderLogo />
+      <Home />
+      <Product /> */}
     </div>
   );
 }
